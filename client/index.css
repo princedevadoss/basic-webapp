@@ -1,0 +1,75 @@
+button {
+    width: 150px;
+    height: 40px;
+    background-color: #2133cc;
+    border: 1px solid #bbbafa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    margin-top: 20px;
+    float: right;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #6170f5;
+}
+
+button:focus {
+    background: #000742;
+}
+
+body {
+    background: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.add-container {
+    width: 450px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    padding: 0 20px;
+    margin: 10px 0;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #101d99;
+}
+
+input::placeholder {
+    position: absolute;
+    font-weight: lighter;
+    color: #101d99;
+}
+
+input:hover {
+    border-bottom: 2px solid #3649f5;
+}
+
+input::placeholder:hover {
+    font-weight: lighter;
+    color: #2e3fdf;
+}
+
+input:focus::placeholder {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
