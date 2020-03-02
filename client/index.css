@@ -12,6 +12,13 @@ button {
     float: right;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #101d99;
+    font-size: 30px;
+}
+
 button:hover {
     cursor: pointer;
     background: #6170f5;
